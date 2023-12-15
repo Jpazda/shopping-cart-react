@@ -1,0 +1,43 @@
+.shop-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: auto;
+  height: 100%;
+  place-items: center;
+}
+
+.product {
+  border-radius: 15px;
+  width: 300px;
+  margin: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.product img {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.product .info {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 0.6;
+}
+
+.product:hover {
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  background-color: #ebf6f5;
+}
