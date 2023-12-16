@@ -37,7 +37,26 @@
 }
 
 .product:hover {
-  transition: 0.2s ease-in;
+  transition: 0.1s ease-in;
   cursor: pointer;
   background-color: #ebf6f5;
+  transform: scale(1.1);
+}
+
+.addToCartBtn {
+  height: 50px;
+  width: 140px;
+  background-color: white;
+  border: 3px solid #5cbdb9;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.addToCartBtn:hover {
+  cursor: pointer;
+}
+
+.addToCartBtn:active {
+  transform: scale(1.1);
 }

@@ -4,7 +4,6 @@ import { Product } from "./product";
 
 export const Shop = () => {
   const items = PRODUCTS;
-  console.log(items);
   return (
     <div className="shop">
       <div className="shop-title">
