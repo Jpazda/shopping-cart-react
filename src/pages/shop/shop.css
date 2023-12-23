@@ -60,3 +60,22 @@
 .addToCartBtn:active {
   transform: scale(1.1);
 }
+
+@media only screen and (max-width: 1280px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product {
+    width: 450px;
+    margin: 50px 15px;
+  }
+
+  .product img {
+    width: 350px;
+  }
+
+  .shop-title {
+    font-size: 45px;
+  }
+}
